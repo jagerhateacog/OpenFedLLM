@@ -1,5 +1,5 @@
 import math
-
+# 这段代码的功能是实现一个基于余弦退火（Cosine Annealing）的学习率调度策略，用于在训练过程中动态调整学习率。
 def cosine_learning_rate(current_round, total_rounds, initial_lr=0.001, min_lr=0):
     """
     Compute the learning rate based on a cosine schedule.
